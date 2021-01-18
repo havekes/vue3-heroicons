@@ -1,6 +1,6 @@
 {
   "name": "@havekes/vue3-heroicons",
-  "version": "1.0.0",
+  "version": "0.4.2",
   "private": false,
   "scripts": {
     "dev": "vue-cli-service serve",

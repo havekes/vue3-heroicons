@@ -2,6 +2,8 @@
 
 Heroicons components for Vue 3 with TypeScript typings.
 
+Version of this package will follow the Heroicons versions.
+
 ## Usage
 
 ```
