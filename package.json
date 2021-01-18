@@ -1,6 +1,6 @@
 {
   "name": "@havekes/vue3-heroicons",
-  "version": "0.4.2",
+  "version": "0.4.2-3",
   "private": false,
   "license": "MIT",
   "description": "Heroicons components for Vue 3 with TypeScript typings",
@@ -30,9 +30,9 @@
   ],
   "files": [
     "dist",
-    "types"
+    "lib/index.d.ts"
   ],
+  "types": "lib/index.d.ts",
   "module": "dist/vue3-heroicons.esm.js",
-  "types": "types/index.d.ts",
   "sideEffects": false
 }
