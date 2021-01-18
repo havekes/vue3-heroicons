@@ -1,4 +1,4 @@
-# vue3-heroicons
+# Vue 3 Heroicons components
 
 Heroicons components for Vue 3 with TypeScript typings.
 
@@ -7,10 +7,11 @@ Version of this package will follow the Heroicons versions.
 ## Usage
 
 ```
+npm i @havekes/vue3-heroicons
 yarn add @havekes/vue3-heroicons
 ```
 
-In a component
+In a component:
 
 ```js
 // ...
@@ -21,6 +22,8 @@ export default defineComponent({
   // ...
 })
 ```
+
+For now, the library is only built as an ESM bundle.
 
 ## Updating from upstream and compiling
 
