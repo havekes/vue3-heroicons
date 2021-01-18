@@ -1,19 +1,32 @@
 # vue3-heroicons
 
-## Project setup
+Heroicons components for Vue 3 with TypeScript typings.
+
+## Usage
+
 ```
-npm install
+yarn add @havekes/vue3-heroicons
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+In a component
+
+```js
+// ...
+import { OPlus } from '@havekes/vue3-heroicons';
+
+export default defineComponent({
+  components: { OPlus }
+  // ...
+})
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Updating from upstream and compiling
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The `make_library.py` script will regenerate all icons from the [heroicons repo](https://github.com/tailwindlabs/heroicons).
+It requires the request Python package to be installed.
+
+```
+pip install requests
+python make_library.py
+yarn build
+```
