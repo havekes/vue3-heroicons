@@ -1,5 +1,12 @@
 # Vue 3 Heroicons components
 
+## Update 2021-05-08
+
+Upstream (https://github.com/tailwindlabs/heroicons) has now a Vue component library.
+I'm archiving this repo in favor of the official library.
+
+
+
 Heroicons components for Vue 3 with TypeScript typings.
 
 Version of this package will follow the Heroicons versions.
